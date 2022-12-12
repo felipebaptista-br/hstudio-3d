@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: #766448;
+  color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #525252;
+  border-radius: 5px;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body,
+input,
+button {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    height: 100vh;
+    flex: 3;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  font-family: 'Maven Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
